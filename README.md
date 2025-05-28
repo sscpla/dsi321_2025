@@ -35,21 +35,36 @@ This Python script fetches real-time electricity production data from the Electr
 
 ```
 DSI321_2025/
-├── _pycache_/
-│   └── egat_pipeline.cpython-312.pyc
+├── .venv/
+│   └──Include
+|   └──Lib \site-packages
+|    └──pip
+|    └──pip-25.0.1.dist-info
+|   └──Scripts
+|    └──activate
+|    └──activate.bat
+|    └──activate.fish
+|    └──Activate.ps1
+|    └──deactivate.bat
+|    └──pip.exe
+|    └──pip3.13.exe
+|    └──python.exe
+|    └──pythonw.exe
+|   └──.gitignore
+|   └──pyvenv.cfg
 ├── parquet/
 │   └── egat_realtime_power_history.parquet
 ├── test-scraping/
-│   ├── .ipynb_checkpoints/
 │   ├── Dockerfile
 │   ├── requirements.txt
 │   └── run_scraper_and_save_to_lakefs.ipynb
 ├── UI/
 │   └── streamlit_app.py
+├── .gitignore
 ├── docker-compose.yml
 ├── egat_pipeline.py
-├── egat_realtime_power.csv
 ├── prefect.yaml
+├── quality_check.py
 └── README.md
 ```
 
