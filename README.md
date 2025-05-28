@@ -2,21 +2,17 @@
 
 ## Overview 
 
-This Python script fetches real-time electricity production data from the Electricity Generating Authority of Thailand (EGAT) website at the URL `https://www.sothailand.com/sysgen/egat/` using Selenium to interact with the web page and pulls data from the browser's Console Log, where the website dynamically updates data. The script is designed to run continuously, capturing new data at specified intervals.
+This Python-based utility retrieves live power generation metrics from the Electricity Generating Authority of Thailand (EGAT), accessible via the URL https://www.sothailand.com/sysgen/egat/. Leveraging Selenium, the tool emulates browser behavior to extract live updates from the browser's developer console, where data is asynchronously loaded and refreshed by the website.
+The scraper operates in a continuous loop, periodically collecting and recording up-to-date electricity output figures at user-defined time intervals.
 
 ## Benefits
 
-- **Real-time Monitoring**: Captures live electricity production data directly from EGAT's systems, enabling immediate visibility into Thailand's power grid status.
-
-- **Automated Data Collection**: Eliminates manual data gathering by automatically scraping data at configurable intervals, ensuring consistent historical datasets.
-
-- **Predictive Analytics**: Powers forecasting models to predict electricity demand patterns, enabling better resource planning and optimization.
-
-- **Interactive Visualization**: Presents complex power generation data through an intuitive user interface, making insights accessible to both technical and non-technical users.
-
-- **Technical Innovation**: Leverages Selenium for dynamic content extraction from console logs, demonstrating an advanced web scraping approach for JavaScript-heavy websites.
-
-- **Historical Analysis**: Builds a comprehensive time-series dataset suitable for trend analysis and anomaly detection in power generation.
+- **Live Data Access**:Continuously tracks up-to-the-minute electricity generation information sourced directly from EGAT, offering real-time insight into the national grid's performance.
+- **Hands-free Logging**:Automates the retrieval process with scheduled scraping intervals, removing the need for manual entry and supporting long-term data consistency.
+- **Forecast-Driven Insights**: Supports machine learning and statistical models aimed at anticipating future power consumption trends, enhancing decision-making and load management.
+- **User-Friendly Dashboard**:Converts detailed operational data into visually engaging charts and summaries, allowing both analysts and stakeholders to easily interpret performance metrics.
+- **Advanced Scraping Technique**:Utilizes Selenium to pull dynamic updates from browser console messages, showcasing a sophisticated solution for extracting data from highly interactive, JavaScript-driven sites.
+- **Time-Series Intelligence**:Compiles rich historical datasets ideal for conducting trend evaluations, detecting irregularities, and supporting retrospective energy analytics.
 
 ## Dataset Quality
 
