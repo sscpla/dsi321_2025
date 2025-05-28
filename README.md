@@ -18,11 +18,11 @@ The scraper operates in a continuous loop, periodically collecting and recording
 
 | Quality Check | Description | Status |
 |--------------|-------------|--------|
-| Contains at least 1,000 records | Ensures dataset has sufficient volume | ✅ Passing |
-| Covers a full 24-hour time range | Verifies complete daily coverage | ✅ Passing |
-| At least 90% data completeness | Checks for minimal missing values | ✅ Passing |
-| No columns with data type 'object' | Ensures proper data typing | ✅ Passing |
-| No duplicate records | Confirms data uniqueness | ✅ Passing |
+| Contains at least 1,000 records | Ensures dataset has sufficient volume | Passing |
+| Covers a full 24-hour time range | Verifies complete daily coverage | Passing |
+| At least 90% data completeness | Checks for minimal missing values | Passing |
+| No columns with data type 'object' | Ensures proper data typing | Passing |
+| No duplicate records | Confirms data uniqueness |  Passing |
 
 - Dataset (`parquet\egat_realtime_power_history.parquet`)
 
